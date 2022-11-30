@@ -7,7 +7,7 @@ def main():
   st.title("Division of Two Numbers")
   html_temp = """
   <div style="background-color:black;padding:10px">
-  <h2 style="color:white;text-align:center;">Division of 2 Numbers</h2>
+  <h2 style="color:black;text-align:center;">Division of 2 Numbers</h2>
   </div>
   """
   st.markdown(html_temp,unsafe_allow_html=True)
@@ -21,8 +21,8 @@ def main():
   
   st.success('The output is {}'.format(result))
   if st.button("Made By"):
-      st.text("Atharva Ramgirkar")
-      st.text("22ds1000188")
+      st.text("Nikhil Guru")
+      st.text("21f3000424")
 
 if __name__=='__main__':
   main()
