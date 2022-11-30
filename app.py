@@ -14,15 +14,12 @@ def main():
   num1 = st.number_input("Number 1")
   num2 = st.number_input("Number 2")
   
-  try:
-    result = num1 / num2
-  except:
-    pass
+  if(num1=0 or num2=0):
+    result = 0
+  else:
+    result=num1/num2
   
   st.success('The output is {}'.format(result))
-  if st.button("Made By"):
-      st.text("Nikhil Guru")
-      st.text("21f3000424")
-
+  
 if __name__=='__main__':
   main()
