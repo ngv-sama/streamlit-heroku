@@ -14,7 +14,7 @@ def main():
   num1 = st.number_input("Number 1")
   num2 = st.number_input("Number 2")
   
-  if(num1=0 or num2=0):
+  if(num1==0 or num2==0):
     result = 0
   else:
     result=num1/num2
